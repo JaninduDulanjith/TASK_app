@@ -13,6 +13,21 @@
         android:theme="@style/Theme.TASK_app"
         tools:targetApi="31">
         <activity
+            android:name=".UpdateTaskActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TaskDatabaseHelper"
+            android:exported="false" />
+        <activity
+            android:name=".TaskAddapter"
+            android:exported="false" />
+        <activity
+            android:name=".Task"
+            android:exported="false" />
+        <activity
+            android:name=".AddTaskActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
